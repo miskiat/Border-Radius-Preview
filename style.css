@@ -1,0 +1,90 @@
+html,
+body {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 188, 213);
+}
+header {
+  font-size: 3rem;
+  color: rgb(48, 17, 51);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.container {
+  height: 30rem;
+  width: 40rem;
+  background-color: rgb(177, 116, 162);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.inner {
+  background-color: rgb(130, 99, 160);
+  height: 25rem;
+  width: 35rem;
+}
+#value1 {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 3rem;
+}
+#value2 {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 3rem;
+}
+#value3 {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  width: 3rem;
+}
+#value4 {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  width: 3rem;
+}
+.title {
+  color: rgb(44, 21, 65);
+  background-color: rgb(228, 145, 208);
+  font-size: 2rem;
+}
+button {
+  background-color: rgb(104, 42, 94);
+  font-size: 2rem;
+  color: blueviolet;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.bottom {
+  margin-top: 4rem;
+}
+#display {
+  background: rgb(240, 157, 243);
+  width: 100px;
+  height: auto;
+  text-align: center;
+  border: 2px solid transparent;
+  color: rgb(87, 36, 87);
+}
+#modal {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  color: rgb(124, 75, 124);
+  font-size: 25px;
+  width: 60%;
+  height: 30%;
+  background-color: rgb(174, 120, 224);
+}
